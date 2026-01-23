@@ -1,7 +1,7 @@
 # 🛡️ DBT TRIPLE SHIELD 🎭
 
  <p align="center">
-   <img width="150" height="150" src=https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/22aee52c8271fadbdbf39f49b96197b017133b73/clamav.png) 
+   <img width="150" height="150" src=https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/22aee52c8271fadbdbf39f49b96197b017133b73/clamav.png>
  
   ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/3e46c55fd24f48d4d439fa4f1288365a7132a584/docker.png)
   
