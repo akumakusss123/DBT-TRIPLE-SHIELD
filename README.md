@@ -86,37 +86,37 @@ Cloudflare API (анализ репутации, фишинг, вредонос�
 Структура проекта: DBT
 
 
-DBT/
-├── backend/
-│   ├── app.py
-│   ├── clamav_scanner.py
-│   ├── scanner.py
-│   ├── Dockerfile
-│   └── requirements.txt
-├── docker/
-│   ├── clamav/
-│   │   ├── clamd.conf
-│   │   ├── Dockerfile
-│   │   └── entrypoint.sh
-│   ├── nginx/
-│   │   ├── default.conf
-│   │   └── nginx.conf
-│   └── postgres/
-│       └── init.sql
-├── frontend/
-│   ├── css/
-│   │   └── style.css
-│   ├── icons/
-│   │   └── logo.png
-│   ├── js/
-│   │   ├── bin.js
-│   │   ├── main.js
-│   │   └── scanner.js
-│   └── index.html
-├── clamav/
-│   └── ... (clamav files)
-├── docker-compose.yml
-├── .env
+📁 DBT - Корень проекта
+    📁 backend - Бэкенд на Python
+        📄 app.py - Главный файл приложения
+        📄 clamav_scanner.py - Модуль для работы с ClamAV
+        📄 scanner.py - Основная логика сканирования
+        📄 Dockerfile - Сборка образа бэкенда
+        📄 requirements.txt - Зависимости Python
+    📁 docker - Конфигурация Docker сервисов
+        📁 clamav - Настройки ClamAV
+            📄 clamd.conf - Конфиг демона ClamAV
+            📄 Dockerfile - Сборка образа ClamAV
+            📄 entrypoint.sh - Скрипт запуска ClamAV
+        📁 nginx - Настройки веб-сервера
+            📄 default.conf - Конфиг виртуального хоста
+            📄 nginx.conf - Основной конфиг Nginx
+        📁 postgres - Настройки базы данных
+            📄 init.sql - SQL-скрипт для инициализации БД
+    📁 frontend - Фронтенд
+        📁 css - Стили
+            📄 style.css - Основной файл стилей
+        📁 icons - Иконки
+            📄 logo.png - Логотип проекта
+        📁 js - JavaScript файлы
+            📄 bin.js - Утилиты
+            📄 main.js - Основная логика
+            📄 scanner.js - Модуль сканера
+        📄 index.html - Главная страница
+    📁 clamav - Файлы ClamAV
+    📄 docker-compose.yml - Оркестратор сервисов
+    📄 .env - Переменные окружения
+    📄 README.md - Описание проекта
 └── README.md
 
 
