@@ -86,38 +86,38 @@ Cloudflare API (анализ репутации, фишинг, вредонос�
 Структура проекта: DBT
 
 
-DBT/                               # Корень проекта
-├── backend/                       # Бэкенд на Python (Flask/FastAPI)
-│   ├── app.py                     # Главный файл приложения (роуты, API)
-│   ├── clamav_scanner.py          # Модуль для работы с ClamAV
-│   ├── scanner.py                 # Основная логика сканирования
-│   ├── Dockerfile                 # Инструкция для сборки образа бэкенда
-│   └── requirements.txt           # Зависимости Python (Flask, requests и т.д.)
-├── docker/                        # Конфигурация Docker сервисов
-│   ├── clamav/                    # Настройки ClamAV антивируса
-│   │   ├── clamd.conf             # Конфиг демона ClamAV
-│   │   ├── Dockerfile             # Сборка образа ClamAV
-│   │   └── entrypoint.sh          # Скрипт запуска ClamAV
-│   ├── nginx/                     # Настройки веб-сервера Nginx
-│   │   ├── default.conf           # Конфиг виртуального хоста
-│   │   └── nginx.conf             # Основной конфиг Nginx
-│   └── postgres/                  # Настройки базы данных
-│       └── init.sql               # SQL-скрипт для инициализации БД
-├── frontend/                      # Фронтенд (HTML, CSS, JS)
-│   ├── css/                       # Стили
-│   │   └── style.css              # Основной файл стилей
-│   ├── icons/                     # Иконки и изображения
-│   │   └── logo.png               # Логотип проекта
-│   ├── js/                        # JavaScript файлы
-│   │   ├── bin.js                 # Утилиты или бинарные операции
-│   │   ├── main.js                # Основная логика фронтенда
-│   │   └── scanner.js             # JS модуль для работы со сканером
-│   └── index.html                 # Главная HTML страница
-├── clamav/                        # Распакованные файлы ClamAV (7zip)
-│   └── ...                        # Библиотеки и бинарники ClamAV
-├── docker-compose.yml             # Оркестратор всех сервисов
-├── .env                           # Переменные окружения и API-ключи
-└── README.md                      # Описание проекта
+DBT/
+├── backend/
+│   ├── app.py
+│   ├── clamav_scanner.py
+│   ├── scanner.py
+│   ├── Dockerfile
+│   └── requirements.txt
+├── docker/
+│   ├── clamav/
+│   │   ├── clamd.conf
+│   │   ├── Dockerfile
+│   │   └── entrypoint.sh
+│   ├── nginx/
+│   │   ├── default.conf
+│   │   └── nginx.conf
+│   └── postgres/
+│       └── init.sql
+├── frontend/
+│   ├── css/
+│   │   └── style.css
+│   ├── icons/
+│   │   └── logo.png
+│   ├── js/
+│   │   ├── bin.js
+│   │   ├── main.js
+│   │   └── scanner.js
+│   └── index.html
+├── clamav/
+│   └── ... (clamav files)
+├── docker-compose.yml
+├── .env
+└── README.md
 
 
 **В будущем:** Поднять хост + сайт 👀
