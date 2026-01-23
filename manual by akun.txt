@@ -1,0 +1,14 @@
+START
+cd C:\Users\psych\Desktop\DBT-TRIPLE-SHIELD
+docker-compose down
+docker-compose up --build -d
+start http://localhost
+
+STOP
+docker-compose down
+docker ps  # посмотреть все работающие контейнеры
+
+
+.env - ВАШИ API  C:\Users\YOU\Desktop\DBT-TRIPLE-SHIELD
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>DBT Triple Shield</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-card">
+        <img src="icons/logo.png" alt="DBT Logo" class="hero-logo">
+        <h1 class="hero-title">DBT Triple Shield</h1>
+    </div>
+</section>
+
+<!-- Topbar -->
+<header class="topbar">
+    <img src="icons/logo.png" alt="DBT Logo" class="topbar-logo">
+</header>
+
+<main class="container">
+
+    <!-- Scan Switch -->
+    <div class="scan-switch">
+        <button class="switch-btn active" id="fileTab">FILE</button>
+        <button class="switch-btn" id="urlTab">URL</button>
+    </div>
+
+    <!-- File Scan -->
+    <section class="scan-box" id="fileScan">
+        <input type="file" id="fileInput" hidden />
+        <button class="upload-btn" onclick="fileInput.click()">Upload File</button>
+        <span class="hint">Max 100MB · exe, pdf, zip, js, py</span>
+    </section>
+
+    <!-- URL Scan -->
+    <section class="scan-box hidden" id="urlScan">
+        <input type="text" id="urlInput" placeholder="https://example.com" />
+    </section>
+
+    <button class="scan-btn" onclick="scanFile()">Scan</button>
+
+    <!-- Verdict -->
+    <section class="verdict-box" id="resultsSection" style="display:none;">
+        <div class="verdict clean" id="overallVerdict">CLEAN</div>
+        <div class="score">0 / 70 detections</div>
+    </section>
+
+    <!-- Results Grid -->
+    <section class="results-grid">
+
+        <!-- Engines -->
+        <div class="card">
+            <h3>Engines</h3>
+            <ul class="engine-list">
+                <li>VirusTotal <span id="vtStatus">—</span></li>
+                <li>ClamAV <span id="clamStatus">—</span></li>
+                <li>Cloudflare <span id="cfStatus">—</span></li>
+            </ul>
+        </div>
+
+        <!-- File Info -->
+        <div class="card">
+            <h3>File / URL Info</h3>
+            <div class="info-row">Name: <span id="fileName">-</span></div>
+            <div class="info-row">SHA256: <span id="fileHash">-</span></div>
+            <div class="info-row">Scan Time: <span id="scanTime">-</span></div>
+        </div>
+
+    </section>
+
+    <!-- Tabs -->
+    <section class="tabs">
+        <button class="tab active">Detections</button>
+        <button class="tab">Behaviour</button>
+        <button class="tab">Threat Intel</button>
+    </section>
+
+    <section class="card">
+        <div id="enginesTable">Waiting for scan results…</div>
+    </section>
+
+</main>
+
+<script>
+    const fileTab = document.getElementById("fileTab");
+    const urlTab = document.getElementById("urlTab");
+    const fileScan = document.getElementById("fileScan");
+    const urlScan = document.getElementById("urlScan");
+
+    fileTab.onclick = () => {
+        fileTab.classList.add("active");
+        urlTab.classList.remove("active");
+        fileScan.classList.remove("hidden");
+        urlScan.classList.add("hidden");
+    };
+
+    urlTab.onclick = () => {
+        urlTab.classList.add("active");
+        fileTab.classList.remove("active");
+        urlScan.classList.remove("hidden");
+        fileScan.classList.add("hidden");
+    };
+</script>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-inner">
+        <a href="https://github.com/akumakusss123/DBT-TRIPLE-SHIELD" target="_blank">
+            Github: DBT TRIPLE SHIELD
+        </a>
+        <span>Contact: akumakusss123@gmail.com</span>
+    </div>
+</footer>
+
+</body>
+</html>
