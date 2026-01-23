@@ -6,8 +6,6 @@
  <p align="center">
    <img width="150" height="150" src=https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/e205063f125b28631d64aa7d1180b281d039384a/postgresql.png>
 
- 
-  ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/3e46c55fd24f48d4d439fa4f1288365a7132a584/docker.png)
   
   ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/a18d6052ab9740a8937838d039656d335c9a7b47/totalvirus.png)
 
