@@ -1,21 +1,17 @@
 # 🛡️ DBT TRIPLE SHIELD 🎭
 
+  <p align="center">
+   <img width="300" height="300" src=https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/22aee52c8271fadbdbf39f49b96197b017133b73/clamav.png>
+
+  ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/a18d6052ab9740a8937838d039656d335c9a7b47/totalvirus.png)
+
+  ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/a18d6052ab9740a8937838d039656d335c9a7b47/cloudflare.webp)
 
  <p align="left">
    <img width="300" lefth="300" src=https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/e205063f125b28631d64aa7d1180b281d039384a/postgresql.png>
 
  <p align="right">
    <img width="300" height="300" src=  https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/56e88f03f40db7b6e22fce12b08118d0009171b9/container.png>
-
-
-
-   
-  ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/a18d6052ab9740a8937838d039656d335c9a7b47/totalvirus.png)
-
-  ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/a18d6052ab9740a8937838d039656d335c9a7b47/cloudflare.webp)
-
-  <p align="center">
-   <img width="300" height="300" src=https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/22aee52c8271fadbdbf39f49b96197b017133b73/clamav.png>
 
  
 <p align="center">
