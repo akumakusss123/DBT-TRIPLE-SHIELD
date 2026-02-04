@@ -3,11 +3,10 @@
   <p align="center">
    <img width="300" height="300" src=https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/22aee52c8271fadbdbf39f49b96197b017133b73/clamav.png>
 
-  ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/d25407e12f65e70b49526a3a0b65e5c1f767e8e0/docker%2Bpostgre.png)
   
-  ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/a18d6052ab9740a8937838d039656d335c9a7b47/totalvirus.png)
-
+ ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/a18d6052ab9740a8937838d039656d335c9a7b47/totalvirus.png)
   ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/a18d6052ab9740a8937838d039656d335c9a7b47/cloudflare.webp)
+   ![image alt](https://github.com/akumakusss123/DBT-TRIPLE-SHIELD/blob/d25407e12f65e70b49526a3a0b65e5c1f767e8e0/docker%2Bpostgre.png)
 
 
  
